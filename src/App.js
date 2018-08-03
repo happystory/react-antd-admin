@@ -1,11 +1,10 @@
 import React, { Component } from 'react';
+import { DatePicker } from 'antd';
 
 class App extends Component {
   render() {
     return (
-      <h1>
-        Hello React.js!
-      </h1>
+      <DatePicker />
     );
   }
 }
